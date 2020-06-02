@@ -1,0 +1,33 @@
+table{
+    display: table;
+    margin: auto;
+    border-collapse: separate;
+    table-layout: fixed;
+}
+
+th{
+    text-align: center;
+}
+
+td{
+    padding: 0px 50px 0px 50px;
+    height: 60px;
+}
+
+img{
+    height: 100%;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: gray;
+}
+
+.topBar{
+    margin: 10px;
+}
