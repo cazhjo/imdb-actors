@@ -8,7 +8,6 @@ class Table extends Component {
     constructor(props) {
         super(props);
         this.props = props;
-        this.data = imdb;
         this.state = {
             actors: new Set(imdb.slice(0, 5))
         };
